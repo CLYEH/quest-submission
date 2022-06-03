@@ -8,7 +8,7 @@ A blockchain is a decentralized database which is accessable and open to all. Th
 
 ### 2. Explain what a Smart Contract is. You can read this to help you, but you don't have to: https://www.ibm.com/topics/smart-contracts
 
-A smart contract is a series of code that could be deployed by anyone on the blockchain. The contract can be called by any user on the net to execute the specific action on chain, which could take paramaters input by users, record any valid data on the chain and will update the data to every node.
+A smart contract is a series of code that could be deployed by anyone on the blockchain. The contract can be called by any user to execute the specific action on chain, which could take paramaters input by users, record any valid data on the chain and will update the data to every node.
   
 ### 3. Explain the difference between a script and a transaction.
 

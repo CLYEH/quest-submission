@@ -30,3 +30,30 @@ A smart contract is a series of code that could be deployed by anyone on the blo
 
 These pillars could be referenced for every project or product. As a user of a product, the most crucial thing is that if it is safe to use. Secondly, if the instruction of product is clarity enough or easy to operate. For the developer, is it easy to maintain the product is important.
 
+## Chapter 2 - Day 1 - Our First Smart Contract
+
+### 1. Deploy a contract to account 0x03 called "JacobTucker". Inside that contract, declare a constant variable named is, and make it have type String. Initialize it to "the best" when your contract gets deployed.
+
+```
+pub contract JacobTucker {
+    pub let is: String
+    
+    init() {
+        self.is = "The Best"
+    }
+}
+```
+
+### 2. Check that your variable is actually equals "the best" by executing a script to read that variable. Include a screenshot of the output.
+
+```
+import JacobTucker from 0x03
+
+pub fun main(): String {
+    return JacobTucker.is 
+}
+```
+
+Result:
+
+![Result](ipfs://QmVgebD8xWdSBdT6sP5BVirVqBkTNarYLsRBGPjUzgMoyv?filename=CH2_D1_Q2.png)

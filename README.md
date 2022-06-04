@@ -56,4 +56,4 @@ pub fun main(): String {
 
 Result:
 
-![Result](ipfs://QmVgebD8xWdSBdT6sP5BVirVqBkTNarYLsRBGPjUzgMoyv?filename=CH2_D1_Q2.png)
+![Result](https://github.com/CLYEH/quest-submission/blob/main/CH2_D1_Q2.png?raw=true)

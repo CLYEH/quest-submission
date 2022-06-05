@@ -24,4 +24,4 @@ pub fun main(): String {
 
 Result:
 
-![Result](https://github.com/CLYEH/quest-submission/blob/main/CH2_D1_Q2.png?raw=true)
+![Result](https://github.com/CLYEH/quest-submission/blob/main/Chapter%202/pics/CH2_D1_Q2.png)

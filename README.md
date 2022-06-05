@@ -2,7 +2,7 @@
 
 ## Chapter 1 - Day 1 - Learning Blockchain Concepts
 
-[CH1 D1](/Chapter 1/Day 1.md)
+[CH1 D1](/quest-submission/Chapter 1/Day 1.md)
 
 ## Chapter 1 - Day 2 - The Flow Blockchain & Cadence
 

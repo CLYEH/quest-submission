@@ -2,7 +2,7 @@
 
 ## 1. Explain why we wouldn't call `changeGreeting` in a script.
 
-'changeGreeting' is a function in the contract that updates a new value, but a script does not write or change any data on the blockchain, instesd, it can only view.
+`changeGreeting` is a function in the contract that updates a new value, but a script does not write or change any data on the blockchain, instesd, it can only view.
 
 ## 2. What does the `AuthAccount` mean in the `prepare` phase of the transaction?
 

@@ -53,3 +53,21 @@ transaction(myNewNumber: Int) {
   }
 }
 ```
+
+**Verify:**
+
+the contract deployed
+
+- ![contract deployed by 0x02](https://github.com/CLYEH/quest-submission/blob/main/Chapter%202/pics/contract.png?raw=true)
+
+script 1
+
+- ![script 1](https://github.com/CLYEH/quest-submission/blob/main/Chapter%202/pics/script_1.png?raw=true)
+
+transaction executed by 21 input
+
+- ![transaction](https://github.com/CLYEH/quest-submission/blob/main/Chapter%202/pics/transaction.png?raw=true)
+
+script 2
+
+- ![script 2](https://github.com/CLYEH/quest-submission/blob/main/Chapter%202/pics/script_2.png?raw=true)

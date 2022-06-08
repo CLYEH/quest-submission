@@ -12,14 +12,29 @@ pub fun main(){
 ## 2. In a script, initialize a dictionary that maps the `String`s Facebook, Instagram, Twitter, YouTube, Reddit, and LinkedIn to a `UInt64` that represents the order in which you use them from most to least. For example, YouTube --> 1, Reddit --> 2, etc. If you've never used one before, map it to 0!
 
 ```Cadence
-pub fun maini(){
+pub fun main(){
   var socialmedia: {String: UInt64} = {"Facebook":3 , "Instagram":2 , "Twitter":1 , "YouTube":4 , "Reddit":5 , "LinkedIn":0 }
 }
 ```
 
 ## 3. Explain what the force unwrap operator `!` does, with an example different from the one I showed you (you can just change the type).
 
+An optional type `Type?` variable is either a value with the `Type` or `nil`. The force unwrap operator `!` can uwrap `Type?` to either `nil` or `Type`, depending on what value the variable is.
 
+The example:
+```Cadence
+pub fun main(){
+  var account1: Int? = 1234
+  var unwrappedacc1 = account1!
+} // Result > {"type":"Void"}
+```
+
+```Cadence
+pub fun main(){
+  var account2: Int? = nil
+  var unwrappedacc2 = account2!
+} // Error > unexpectedly found nil while forcing an Optional value
+```
 
 ## 4. Using this picture below, explain...
 

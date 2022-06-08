@@ -48,4 +48,20 @@ The error message means the return type is not matching the type that we declare
 
 This script is gonna return a value from a dictionary, but as long as we want to access the value of a dictionary, it will always return an optional type value, but at the first line of the script, the main() function has been declared as a `String` type, which will be an error if executed.
 
+We can simply fix it with 2 solution:
 
+Solution 1: declare a `String?` in the first line
+```Cadence
+pub fun main(): String? {
+  let thing: {Address: String} = {0x01: "One", 0x02: "Two", 0x03: "Three"}
+  return thing[0x03]
+}
+```
+
+Solution 2: Return the value using a force unwrap operator `!` 
+```Cadence
+pub fun main(): String {
+  let thing: {Address: String} = {0x01: "One", 0x02: "Two", 0x03: "Three"}
+  return thing[0x03]!
+}
+```

@@ -6,3 +6,7 @@
 
 ## Chapter 2
 [Day 1 - Our First Smart Contract](https://github.com/CLYEH/quest-submission/blob/d1ca3b04ac69ee7615892d381c09f8af38b0e303/Chapter%202/Day%201.md)
+
+[Day 2 - Transactions and Scripts](https://github.com/CLYEH/quest-submission/blob/main/Chapter%202/Day%202.md)
+
+[Day 3 - Arrays, Dictionaries, and Optionals](https://github.com/CLYEH/quest-submission/blob/main/Chapter%202/Day%203.md)

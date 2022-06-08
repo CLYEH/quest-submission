@@ -43,3 +43,9 @@ pub fun main(){
 - How to fix it
 
 ![Q4](https://github.com/emerald-dao/beginner-cadence-course/raw/main/chapter2.0/images/wrongcode.png)
+
+The error message means the return type is not matching the type that we declared in the first line, as we declared a `String` type but returning a `String?` type.
+
+This script is gonna return a value from a dictionary, but as long as we want to access the value of a dictionary, it will always return an optional type value, but at the first line of the script, the main() function has been declared as a `String` type, which will be an error if executed.
+
+

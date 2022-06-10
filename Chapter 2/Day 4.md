@@ -47,10 +47,17 @@ transaction(btc: Int, eth: Int, flow: Int, account: Address) {
     execute {
     
         Wallet.addAccount(btc: btc, eth: eth, flow: flow, account: account)
-        log(Done!)
+        log("Done!")
     }
 
 }
+```
 
+For Q5:
+```Cadence
+import Wallet from 0x02
 
+pub fun main(account: Address): Wallet.Balance {
+    return Wallet.walletBalance[account]!
+}
 ```
